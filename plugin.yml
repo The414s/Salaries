@@ -1,12 +1,13 @@
 name: Salaries
-main: uk.servername.rahman.salaries.Salaries
+main: com.github.TeamRA.Salaries.Salaries
 version: 0.1
-author: Rah
-description: The description of your plugin.
+author: TeamRA
+description: A salary plugin giving players items.
 
 commands:
   salaries:
-    description: Gives his salary to a player.
+    description: Gives a player his salary to a player.
     aliases: salary
     usage: |
            /<command> | Gets your salary.
+    Permission: salaries.salary
