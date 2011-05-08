@@ -108,7 +108,7 @@ long secondsRemaining = usageInterval - secondsElapsed;
 int hours = (int) (secondsRemaining / 3600);
 int minutes = (int) ((secondsRemaining % 3600) / 60);
 int seconds = (int) (secondsRemaining % 60);
-player.sendMessage(chatPrefix + "You must wait " + hours + " hours, " + minutes + " mns and " + seconds + " seconds.");
+player.sendMessage(chatPrefix + "You must wait " + hours + " hours, " + minutes + " minutes and " + seconds + " seconds.");
 return true;
 }
 }
